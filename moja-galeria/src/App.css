@@ -1,0 +1,74 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+
+.galleria- container {
+      margin-top: 20px;
+  }
+
+.filters {
+    margin-bottom: 20px;
+  }
+
+.filters input
+{
+padding: 10px;
+font-size: 16px;
+width: 200px;
+}
+
+  .gallery {
+    display: flex;
+justify-content: center;
+gap: 20px;
+  }
+
+.gallery-item {
+cursor: pointer;
+}
+
+.gallery-item img {
+    width: 150px;
+height: 150px;
+object-fit: cover;
+  }
+
+  .modal {
+    position: fixed;
+top: 0;
+left: 0;
+width: 100 %;
+height: 100 %;
+background-color: rgba(0, 0, 0, 0.8);
+display: flex;
+justify-content: center;
+align-items: center;
+z-index: 1000;
+  }
+
+  .modal-content {
+position: relative;
+}
+
+  .modal-content img {
+    max-width: 90 %;
+max-height: 90 %;
+  }
+
+.close-btn {
+position: absolute;
+top: 10px;
+right: 10px;
+background: red;
+color: white;
+border: none;
+font-size: 18px;
+cursor: pointer;
+}
+
+
