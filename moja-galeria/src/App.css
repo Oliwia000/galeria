@@ -1,9 +1,6 @@
-
-
-
-.galleria- container {
-      margin-top: 20px;
-  }
+body{
+  background-color: rgb(71, 128, 179);
+}
 
 .filters {
     margin-bottom: 20px;
